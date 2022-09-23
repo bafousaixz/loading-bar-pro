@@ -1,8 +1,12 @@
 # loading-bar-pro
 
-> Made with create-react-library
+> Make easy loading bar
 
 [![NPM](https://img.shields.io/npm/v/loading-bar-pro.svg)](https://www.npmjs.com/package/loading-bar-pro) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+
+## Install
+https://demo-loading-bar-pro-pu11.vercel.app/
 
 ## Install
 
@@ -15,15 +19,27 @@ npm install --save loading-bar-pro
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'loading-bar-pro'
+import LoadingBarComponent from 'loading-bar-pro'
 import 'loading-bar-pro/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <LoadingBarComponent time={1000} color="#E88E49" />
   }
 }
 ```
+
+## Document
+
+| Option | Description     | Type           | 
+| :---------- | :----------     | :--------------| 
+| time    | time loading (ms) | number |
+| color   | loading bar color | string | 
+| width   | loading bar width | number | 
+| height   | loading bar height | number | 
+| borderRadius   | border radius loading bar | number | 
+| borderColor   | border color (1px solid) | number | 
+| updating...   | updating... | updating... | 
 
 ## License
 
